@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pokémon Search App | Fredrik Borgstein</title>
+  </head>
+  <body>
+    <main>
+      <img
+        src="https://cdn.pixabay.com/photo/2016/08/15/00/50/pokeball-1594373_960_720.png"
+        alt=""
+      />
+      <div class="search-section">
+        <div class="search-header">
+          <h1>Search for a Pokémon here</h1>
+        </div>
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search here"
+          required
+        />
+        <button id="search-button">Search</button>
+      </div>
+      <div class="element-header"><img src="" alt="" id="sprite" /></div>
+      <div class="elements-box">
+        <div class="name">
+          <p class="elements-p">Name:</p>
+          <element class="elements" id="pokemon-name">Name</element>
+        </div>
+        <div class="id">
+          <p class="elements-p">ID:</p>
+          <element class="elements" id="pokemon-id">ID</element>
+        </div>
+        <div class="weight">
+          <p class="elements-p">Weight:</p>
+          <element class="elements" id="weight">Weight</element>
+        </div>
+        <div class="height">
+          <p class="elements-p">Height:</p>
+          <element class="elements" id="height">Height</element>
+        </div>
+        <div class="types">
+          <p class="elements-p">Types:</p>
+          <element class="elements" id="types">Types: </element>
+        </div>
+        <div class="hp">
+          <p class="elements-p">HP:</p>
+          <element class="elements" id="hp">HP</element>
+        </div>
+        <div class="attack">
+          <p class="elements-p">Attack:</p>
+          <element class="elements" id="attack">Attack</element>
+        </div>
+        <div class="defense">
+          <p class="elements-p">Defense:</p>
+          <element class="elements" id="defense">Defense</element>
+        </div>
+        <div class="special-attacks">
+          <p class="elements-p">Special Attack:</p>
+          <element class="elements" id="special-attack">Special Attack</element>
+        </div>
+        <div class="special-defenses">
+          <p class="elements-p">Special Defense:</p>
+          <element class="elements" id="special-defense"
+            >Special Defense</element
+          >
+        </div>
+        <div class="speed">
+          <p class="elements-p">Speed:</p>
+          <element class="elements" id="speed">Speed</element>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-text">
+        This is the fifth, and final project of our
+        <span>Javascript: Algorithms and Data Structures</span> certification.
+      </p>
+      <p>
+        Whit this project, you can use either the pokemon's name or ID to search
+        for a Pokemon <br />
+        to get more information, such as stats and type.
+      </p>
+      <p>
+        The search function uses a API call in the background to get the data,
+        then transform it, and display it <br />
+        as seen in the final result.
+      </p>
+    </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
